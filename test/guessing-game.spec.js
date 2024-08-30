@@ -686,7 +686,7 @@ describe('#guess', () => {
         const game = new GuessingGame();
         game.setRange(0, 496)
 
-        let result = game.guess();
+        let result = game.guess();game.guess();
         game.greater();
         result = game.guess();
         game.lower();
